@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="de-de">
+
+<head>
+    <title>NAITdev | Wir programmieren Ihre Vision</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Work+Sans&display=swap" rel="stylesheet">
+
+    <meta charset='utf-8'>
+    <meta name="description" content="" />
+    <link rel="canonical" href="" />
+    <meta property="og:title" content="NAITdev | Wir programmieren Ihre Vision" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="NAITdev" />
+    <meta property="og:type" content="website" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.jpg">
+    <link rel="apple-touch-icon" href="img/favicon.jpg">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="js/blotter.min.js"></script>
+    <script src="js/fliesMaterial.js"></script>
+    <script src="js/channelSplitMaterial.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+
+<!-- <div data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500">
+</div> -->
+
+
+<body class="wired-bg">
+    <div class="filling clipped darker-blue">
+        <div id="containsVid" class="title">
+            <div id="video">
+                <video autoplay muted loop id="myVideo">
+                    <source src="img/circuit-brain.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div id="sparkling" class="overlay-container ">
+                <h2 class="offset-left offset-top">Du sprichst keine Computersprache?</h2>
+                <h2 class="offset-left offset-bottom">Wir sind für dich da.</h2>
+                <a href="#Contact"><button class="offset-left slightly-right arrow">Sprich uns an!</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="filling intro-box wired-bg">
+        <div id="main" class="content"></div>
+    </div> -->
+
+    <div class="filling white clipped-up">
+        <div class="placeholder white"></div>
+    </div>
+    <div class="filling white">
+        <div class="content section-title">
+            <h3>So helfen wir dir</h3>
+        </div>
+        <div>
+            <p style="margin: 0 auto;
+            padding: 2% 5%;
+            max-width: 1200px;
+            text-align: left;">
+                Aus unserer eigenen Erfahrung als Startup-Gründer kennen wir die Nöte von Geschäftsinhabern und
+                Führungskräften, wenn es um die Zusammenarbeit mit Entwicklern geht.
+
+                Neben unserer technischen Expertise in plattformübergreifender App-Entwicklung, maschinellem Lernen und
+                Webentwicklung sehen wir unsere Stärke im Projektmanagement. Gerne setzen wir ihr nächstes Software
+                Projekt mit Ihnen um, oder beraten Sie bei der Suche nach der richtigen Technologie und Entwicklern.
+                Dabei stehen wir für erstklassige Kommunikation und eine transparente und planbare Kostenstruktur.
+
+            </p>
+        </div>
+    </div>
+    <div class="filing white">
+        <div class="abilities white">
+            <div class="row">
+                <div class="left clip-left wired-bg">
+                </div>
+                <div class="right">
+                    <h4>App Development</h4>
+                    <p>
+                        Wir setzen deine Idee als Cross-Platform Lösung für Android, iOS und Web um. Gerne bauen wir
+                        dir ein cloud-basiertes Backend, damit deine App auch bei starkem Wachstum skaliert und du
+                        deine
+                        Kosten immer voll im Griff hast. Selbstverständlich setzen wir auf modernstes UI und eine
+                        intuitive UX, sodass Nutzer deine App lieben werden.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <h4>Machine Learning</h4>
+                    <p>
+                        Du willst intelligente Entscheidungen basierend auf deinen gesammelten Daten treffen? Von
+                        der
+                        Klassifikation von Kundengruppen, oder Produkten bis hin zur automatisierten Antwort von
+                        Kundenanfragen. Wir helfen dir dabei die Daten, die dein Unternehmen erhebt in einen
+                        Wettbewerbsvorteil zu verwandeln. Dabei unterstützen wir dich von der Beratung bis zur
+                        Umsetzung.
+                    </p>
+                </div>
+                <div class="right clip-right wired-bg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="left clip-left wired-bg">
+                </div>
+                <div class="right">
+                    <h4>IT-Consulting</h4>
+                    <p>
+                        Du hast eine Idee für eine App, brauchst eine Website, oder willst bestehende Prozesse
+                        digitalisieren? Von Baukastensystemen über kostengünstige Entwickler im Ausland bis zur
+                        Hochglanz-Agentur in Deutschland, gibt es nahezu unbegrenzte Möglichkeiten für die
+                        Umsetzung.
+                        Oft ist es für Auftraggeber schwer einzuschätzen, wie viel eine IT-Lösung kosten soll und
+                        darf.
+                        Auch die Wahl der richtigen Technologie erfordert Fachwissen. Wir unterstützen dich als
+                        Berater
+                        und sparen dir so Zeit, Geld und Nerven.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <h4>SEO-optimierte Webseiten</h4>
+                    <p>
+                        Um deine Idee optimal zu präsentieren, geht kein Weg an einer individuellen Landing Page
+                        vorbei.
+                        Im Gegensatz zu Baukastensystemen (die manchmal eine wirklich gute Lösung sein können),
+                        bauen
+                        wir Dir eine SEO-optimierte Seite. Falls du bei Google gefunden werden willst, sind neben
+                        externen Faktoren, wie Backlinks auch technische Faktoren, wie Pagespeed und Seitenstruktur
+                        entscheidend.
+                    </p>
+                </div>
+                <div class="right clip-right wired-bg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="filling dark-blue">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <div class="slideshow-title">
+                <h3>Unsere Projekte</h3>
+            </div>
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <!-- <div class="computer"> -->
+                <a href="https://nait.io/" target="_blank">
+                    <img class="slide-img" src="img/screens/nait.jpg" alt="nait project">
+                </a>
+                <!-- </div> -->
+                <div class="caption-title">NAIT</div>
+                <div class="caption"><a href="https://nait.io/" target="_blank">NAIT</a> ist eine in Flutter
+                    umgesetzte
+                    cross-plattform
+                    Applikation mit Backend in der
+                    Cloud. Die App vermeidet volle Wartezimmer beim Arzt, Friseur, oder Amt. Nutzer verbringen die
+                    Zeit
+                    außerhalb des Wartezimmer under erhalten automatisierte Anrufe, oder Push Benachrichtigungen.
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <!-- <div class="computer"> -->
+                <a href="https://disastertweetlassifier.herokuapp.com" target="_blank">
+                    <img class="slide-img fade-to-right" src="img/screens/disaster.jpg" alt="disaster classifier project">
+                </a>
+                <!-- </div> -->
+                <div class="caption-title">Natural Language Processing NLP</div>
+                <div class="caption">Die automatische <a href="https://disastertweetlassifier.herokuapp.com" target="_blank">Klassifikation</a> von Textnachrichten, kann
+                    ihrem Unternehmen auf
+                    viele Arten bei der Automatisierung helfen. So können Kundenanfragen klassifiziert und
+                    automatisch
+                    beantwortet werden In diesem Projekt zeigen wir, wie NLP hilft, dass Menschen in Krisengebieten
+                    die
+                    passende Hilfe bekommen.
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <!-- <div class="computer"> -->
+                <a href="https://maximilian-joas.medium.com/how-data-science-can-make-hotels-more-profitable-b3af54eca590" target="_blank">
+                    <img class="slide-img fade-to-right" src="img/screens/medium.jpg" alt="medium article project">
+                </a>
+                <!-- </div> -->
+                <div class="caption-title">Data Science Case Studies</div>
+                <div class="caption">
+                    Datenanalyse und Urlaub haben auf den ersten Blick nicht viel gemeinsam. In einer <a href="https://maximilian-joas.medium.com/how-data-science-can-make-hotels-more-profitable-b3af54eca590" target="_blank">Case
+                        Study</a> bringt
+                    unser Geschäftsführer Maximilian Joas genau diese beiden Themen zusammen und zeigt wie
+                    Hotelbesitzer
+                    vorhersagen können, welche Kunden ihre Buchung stornieren werden.
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <!-- <div class="computer"> -->
+                <a href="https://github.com/mk36fyvy/multivitamin" target="_blank">
+                    <img class="slide-img fade-to-right" src="img/screens/multivitamin.jpg" alt="multiVitamin project">
+                </a>
+                <!-- </div> -->
+                <div class="caption-title">multiVitamin</div>
+                <div class="caption">
+                    <a href="https://github.com/mk36fyvy/multivitamin" target="_blank">multiVitamin</a> ist ein
+                    Software
+                    Tool für die Chemie Informatik. Mit multivitamin,
+                    lassen sich Übereinstimmungen von chemischen Molekülen (sog. Alignments) finden.
+                </div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center; height: 5vh;" class="dark-blue">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+    </div>
+
+
+    <div class="filling wired-bg">
+        <!-- <div class="white placeholder"></div> -->
+        <div class="white">
+            <div class="section-title" style="margin: 10% 5% 0;">
+                <h3>Über uns</h3>
+            </div>
+        </div>
+        <div class="wired-bg grid-wrapper">
+            <div class="white argument">
+                <div class=profile-img-wrapper>
+                    <img class="profile-img" src="img/People/Michel.jpg">
+                </div>
+                <h5>Michel Krecké</h5>
+                <hr>
+                <p>Michels Herz schlägt für sauberen Code und intuitives benutzerfreundliches Design.
+                    Durch seine Erfahrung in der Entwicklung von wissenschaftlicher Software, schrecken ihn auch
+                    komplexe Probleme nicht ab und er gibt nicht auf bis er eine elegante Lösung gefunden hat.
+                    Michel
+                    ist der unbesungene Held von NAIT: Er arbeitet unermüdlich im Hintergrund, damit dein Projekt
+                    genauso umgesetzt wird, wie du es dir wünscht. Als menschenscheuer Informatiker, wirst mit ihm
+                    leider selten in Kontakt stehen. Um eine reibungslose Kommunikation kümmert sich Max.
+                </p>
+            </div>
+            <div class="white argument">
+                <div class=profile-img-wrapper>
+                    <img class="profile-img" src="img/People/Max.jpg">
+                </div>
+                <h5>Maximilian Joas</h5>
+                <hr>
+                <p>Aufgrund seiner Erfahrung im Business Development bei mehreren Startups, sowie als Gründer, hat
+                    Max
+                    die geschäftliche Seite deiner Ideen immer voll im Blick. Er berät dich bei der Auswahl der
+                    langfristig am kostengünstigen Umsetzung deiner Projekte und kommuniziert technische Inhalte
+                    auch
+                    für absolute “Nicht-Informatiker” verständlich. Natürlich macht sich Max auch gerne die Hände
+                    schmutzig und baut dir gemeinsam mit Michel Apps, die du lieben wirst. In seiner Masterarbeit am
+                    Fraunhofer Institut hat er sich auf Machine Learning spezialisiert und hilft Dir auch gerne
+                    dabei,
+                    schlau aus den Daten deines Unternehmens zu werden.</p>
+            </div>
+            <div class="white argument">
+                <div class=profile-img-wrapper>
+                    <img class="profile-img" src="img/People/Effi1.jpg">
+                </div>
+                <h5>Effi</h5>
+                <hr>
+                <p>Jedes hippe Unternehmen, das sich Startup schimpft, braucht natürlich einen Office Dog. Diesem
+                    ungeschriebenen Gesetz konnten wir uns auch nicht entziehen. Effi verbreitet selbst beim Bug
+                    fixen
+                    gute Laune und sorgt dafür, dass unser Klischee Informatiker Michel auch ab und an das
+                    Tageslicht
+                    erblickt. Man könnte das schon fast als betriebliches Gesundheitsmanagement bezeichnen. Spaß bei
+                    Seite: Natürlich wird Hundearbeit bei uns nicht unterstützt. Im Gegenteil, Effi war eine
+                    Straßenhündin aus Rumänien, die mittlerweile bei Michel und seiner Verlobten ein liebevolles
+                    Zuhause
+                    gefunden hat.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="filling">
+        <div style="height: 11vh"></div>
+    </div>
+
+    <div id="Contact" class=" content dark-blue" style="padding: 5%;">
+        <div class="section-title">
+            <h3>Kontakt</h3>
+        </div>
+    </div>
+    <div class="content dark-blue">
+        <form id="form" class="form">
+            <h2>Name</h2>
+            <input type="text" placeholder="Dein Name" id="name">
+            <h2>Mail</h2>
+            <input type="email" placeholder="beispiel@domain.com" id="email">
+            <h2>Nachricht</h2>
+            <textarea placeholder="Nachricht" rows="4" id="message"></textarea>
+            <!-- <div class="g-recaptcha" data-sitekey="6LeMS7AaAAAAALkfJ5-Ir0u7f-UL5Xjgh9fKxsZn"
+                data-callback="dataCallback" data-expired-callback="dataExpiredCallback"></div> -->
+            <div style="padding: 5%; text-align: center;">
+                <button type="button" id="myBtn" class="arrow">Abschicken</button>
+            </div>
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="content">
+                        <div class="g-recaptcha" data-sitekey="6LeMS7AaAAAAALkfJ5-Ir0u7f-UL5Xjgh9fKxsZn" data-callback="dataCallback" data-expired-callback="dataExpiredCallback"></div>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+    <footer class="white shadowed filling">
+        <div class="content">
+
+            <div style="text-align: left; padding: 5%;">
+                <h4>Kontakt</h4>
+                <p>
+                    NAIT - Neverwait UG (haftungsbeschränkt)<br>
+                    Klingenstr. 30<br>
+                    04229 Leipzig<br>
+
+                    maximilian.joas@nait.app<br>
+
+                    T: +49 179 4382400
+
+                </p>
+                <br>
+                <a href="legal.html"><u>Datenschutz</u></a>
+                <a href="legal.html"><u>Impressum</u></a>
+            </div>
+            <p style="margin: 0; text-align: center;">&#x00A9; Michel Krecke 2021. Alle Rechte vorbehalten.</p>
+        </div>
+
+    </footer>
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+    <script src="js/firebase.js"></script>
+</body>
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function () {
+
+        function validateEmail(email) {
+            const re = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,7})+$/;
+            return re.test(String(email));
+        }
+
+        const form = document.querySelector('.form');
+
+        const inputName = form.querySelector('#name');
+        const inputEmail = form.querySelector('#email');
+        const inputMessage = form.querySelector('#message');
+
+        if (inputName.value == '') {
+            return alert('Bitte gib deinen Namen ein.');
+        } else if (inputEmail.value == '' || !validateEmail(inputEmail.value)) {
+            return alert('Bitte gib eine gültige Email-Adresse ein.');
+        } else if (inputMessage.value.length <= 10) {
+            return alert(
+                'Bitte beschreib uns ausführlich (über 10 Zeichen), was wir für dich tun können.'
+            );
+        }
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+<script>
+    var video = document.querySelector('video');
+    video.muted = true;
+    var promise = video.play();
+
+    if (promise !== undefined) {
+        promise.then(_ => {
+            console.log('Autoplay worked. Playing muted video.')
+
+        }).catch(error => {
+            console.log('Autoplay did not work. Replacing video by animated image.')
+            videoContainer = document.getElementById("video");
+            videoContainer.innerHTML = ""
+
+            bgContainer = document.getElementById("containsVid");
+            bgContainer.classList.add("title-image");
+        });
+    }
+</script>
+<script>
+    // var w;
+
+
+
+    // function displayDivSize() {
+    //     // Get width and height of the div
+    //     container = document.getElementById("main");
+    //     w = container.clientWidth;
+    //     // var h = container.clientHeight;
+    //     console.log(`width: ${w}`);
+    // }
+
+    // function addBlotText() {
+
+    //     var canvasSize = w / 4.5
+    //     var text = new Blotter.Text("NAITdev", {
+    //         family: "Oswald",
+    //         size: canvasSize,
+    //         fill: '#0cf5fb' // "#000",
+    //         // paddingLeft: 80,
+    //         // paddingRight: 80,
+    //         // paddingTop: 80,
+    //         // paddingBottom: 80
+    //     });
+
+    //     var material = new Blotter.FliesMaterial();
+    //     material.uniforms.uPointCellWidth.value = 0.01;
+    //     material.uniforms.uPointRadius.value = 1;
+    //     material.uniforms.uSpeed.value = 3;
+
+    //     // var material = new Blotter.ChannelSplitMaterial();
+    //     // material.uniforms.uOffset.value = 0.05;
+    //     // material.uniforms.uRotation.value = 58;
+    //     // material.uniforms.uApplyBlur.value = 1;
+    //     // material.uniforms.uAnimateNoise.value = 0.5;
+
+    //     var blotter = new Blotter(material, {
+    //         texts: text
+    //     });
+
+    //     var scope = blotter.forText(text);
+    //     scope.appendTo(container);
+    // }
+
+    // // Attaching the event listener function to window's resize event
+    // // window.addEventListener("resize", displayDivSize);
+
+    // // Calling the function for the first time
+    // displayDivSize();
+    // addBlotText();
+
+</script>
+<script>
+    //inspired by https://codepen.io/nashvail/pen/wpGgXO
+    // Some random colors
+
+    const numBalls = 20;
+    const balls = [];
+
+    for (let i = 0; i < numBalls; i++) {
+        let ball = document.createElement("div");
+        ball.classList.add("ball");
+        // ball.style.background = colors[Math.floor(Math.random() * colors.length)];
+        ball.style.background = `rgb(42, 167, ${Math.floor(Math.random() * 255)}`;
+        ball.style.left = `${Math.floor(Math.random() * 100)}%`;
+        ball.style.top = `${Math.floor(Math.random() * 100)}%`;
+        ball.style.transform = `scale(${Math.random()})`;
+        ball.style.width = `${Math.random() * 0.5}em`;
+        ball.style.height = ball.style.width;
+        ball.style.position = 'absolute';
+
+
+        balls.push(ball);
+        container = document.getElementById("sparkling");
+        container.append(ball);
+    }
+
+    // Keyframes
+    balls.forEach((el, i, ra) => {
+        let to = {
+            x: Math.random() * (i % 2 === 0 ? -11 : 11),
+            y: Math.random() * 12
+        };
+
+        let anim = el.animate(
+            [
+                { transform: "translate(0, 0)" },
+                { transform: `translate(${to.x}rem, ${to.y}rem)` }
+            ],
+            {
+                duration: (Math.random() + 1) * 2000, // random duration
+                direction: "alternate",
+                fill: "both",
+                iterations: Infinity,
+                easing: "ease-in-out"
+            }
+        );
+
+    });
+
+</script>
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
+
+</html>
