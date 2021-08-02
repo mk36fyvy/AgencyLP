@@ -101,7 +101,7 @@ exports.checkRecaptcha = functions.https.onRequest((req, res) => {
         uri: 'https://recaptcha.google.com/recaptcha/api/siteverify',
         method: 'POST',
         formData: {
-            secret: '6LeMS7AaAAAAAN8qCx8jnle-A35yNhkTM1OcMpaM',
+            secret: functions.config().recaptcha.key,
             response: response,
         },
         json: true,
